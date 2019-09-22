@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./img/pattern.png);
+    background-repeat: repeat;
+    background-color: #5b5efa;
+    font: 14px Arial;
+}
+.main {
+    width: 1024px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 20px solid #5bf314;
+}
+.header {
+    height: 400px;
+    clear: both;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.name {
+    font-size: 70px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #1f1f29;
+    line-height: 0.69em;
+    letter-spacing: 0.14em;
+    margin: 10px;
+}
+.header-part {
+    float: left;
+}
+.header-left {
+    width: 65%;
+    padding-top: 200px;
+    padding-left: 30px;
+}
+.header-right {
+    width: 30%;
+}
+.pic {
+    height: 400px;
+    margin: 10px;
+}
+.line {
+    width: 65px;
+    margin: 0 0 0;
+    border: 2px solid #ff4d57;
+}
+.info-block {
+    margin: 10px 10px 0 40px;
+}
+.info-title {
+    margin: 2px 0;
+}
+.half {
+    width: 40%;
+    float: left;
+}
+.table-education{
+    width: 100%;
+}
+.table-education th {
+    text-align: left;
+}
+.col-course {
+    width: 60%;
+}
+
+.col-link {
+    width: 40%;
+}
+.list {
+    list-style: square;
+}
+.icon-mail {
+    list-style-type: none;
+}
+.icon-mail::before{
+    content: '';
+   display: inline-block;
+   height: 15px;
+   width: 15px;
+   margin-right: 5px;
+   background-image: url(./img/gmail.png);
+   background-size: 100%;
+}
+.icon-phone {
+    list-style-type: none;
+}
+.icon-phone:before{
+    content: '';
+   display: inline-block;
+   height: 15px;
+   width: 15px;
+   margin-right: 5px;
+   background-image: url(./img/phone.png);
+   background-size: 100%;
+}
